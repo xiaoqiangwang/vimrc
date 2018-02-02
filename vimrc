@@ -22,6 +22,9 @@ au BufNewFile,BufRead *.swg set filetype=swig
 " EPICS template syntax highlight
 au BufRead,BufNewFile *.template set filetype=epicsdb
 
+" EPICS substitution syntax highlight
+au BufRead,BufNewFile *.subs set filetype=epicssubs
+
 " EPICS SNL syntax highlight
 au BufRead,BufNewFile *.st set filetype=snl
 
