@@ -22,6 +22,9 @@ au BufNewFile,BufRead *.swg set filetype=swig
 " EPICS template syntax highlight
 au BufRead,BufNewFile *.template set filetype=epicsdb
 
+" EPICS database definition syntax highlight
+au BufRead,BufNewFile *.dbd set filetype=epicsdbd
+
 " EPICS substitution syntax highlight
 au BufRead,BufNewFile *.subs set filetype=epicssubs
 
